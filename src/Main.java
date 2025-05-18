@@ -10,7 +10,5 @@ public class Main {
         String Currency = "USD";
         HttpRequest request = HttpRequest.newBuilder().GET().uri(URI.create("https://v6.exchangerate-api.com/v6/bd01f97a98b1e93bb65c0645/latest/"+ Currency)).build();
 
-
-
     }
 }
